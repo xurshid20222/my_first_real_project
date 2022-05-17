@@ -202,8 +202,10 @@ class _DetailPageState extends State<DetailPage> {
 
 ![logo](https://avatars.mds.yandex.net/i?id=151479f41e61b8ebc96a9d6515d0ff5b-4614774-images-thumbs&n=13)
 
-![Page 1](D:\GroupProject/img1.png)
-![Page 1](D:\GroupProject/img2.png)
-![Action](D:\GroupProject/img3.png)
+[![Page 1](D:\GroupProject/img1.png)]
+[![Page 1](D:\GroupProject/img2.png)]
+[![Page 1](D:\GroupProject/img3.png)]
 
 
+[Open my telegram](https://t.me/Xurshid_Ali)
+[Open Learn Flutter](https://flutter.dev/)
