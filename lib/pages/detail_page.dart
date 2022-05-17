@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class DetailPage extends StatefulWidget {
   static const id = '/detail_page';
 
@@ -9,7 +8,6 @@ class DetailPage extends StatefulWidget {
   @override
   State<DetailPage> createState() => _DetailPageState();
 }
-
 class _DetailPageState extends State<DetailPage> {
   int zikr1 = 0;
 
@@ -45,40 +43,33 @@ class _DetailPageState extends State<DetailPage> {
             Center(
               child: Column(
                 children: [
+
                   Container(
+                    color: Colors.cyanAccent,
                     width: 300,
                     height: 50,
-                    decoration: const BoxDecoration(
-                        image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: AssetImage("assets/images/last_last.jpg"))),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Text(
-                          'SubhanAlloh',
-                          style: TextStyle(fontSize: 20),
-                        ),
-                        Icon(Icons.favorite)
-                      ],
+                    child: const Center(
+                      child: Text(
+                        'SubhanAlloh',
+                        style: TextStyle(fontSize: 20),
+                      ),
                     ),
-                    margin: const EdgeInsets.fromLTRB(10, 60, 10, 10),
+                    margin: const EdgeInsets.fromLTRB(10, 40, 10, 10),
                   ),
+
                   Container(
                     color: Colors.white,
                     width: 300,
                     height: 50,
-                    child:  Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children : const [ Text(
+                    child: const Center(
+                      child: Text(
                         'Alhamdulillah',
                         style: TextStyle(fontSize: 20),
                       ),
-                        Icon(Icons.favorite),
-                    ],
                     ),
                     margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
                   ),
+
                   Container(
                     color: Colors.lightGreenAccent,
                     width: 300,
