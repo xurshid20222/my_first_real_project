@@ -200,9 +200,10 @@ class _DetailPageState extends State<DetailPage> {
 
 -[ ] Pictures:
 
-![logo](https://drive.google.com/file/d/16wjB-sK2VzoQ_pql1HoLEN1wCtIl0nbh/view?usp=sharing)
-![logo](https://drive.google.com/file/d/1auV3_xPfhNtTt0feEhGLCM55qp9RC1oj/view?usp=sharing)
-![logo](https://drive.google.com/file/d/1vSsBdAdSGocGa00-NtO8xEjTMzFvfKMR/view?usp=sharing)
+![logo](https://avatars.mds.yandex.net/i?id=151479f41e61b8ebc96a9d6515d0ff5b-4614774-images-thumbs&n=13)
 
+![Page 1](D:\GroupProject/img1.png)
+![Page 1](D:\GroupProject/img2.png)
+![Action](D:\GroupProject/img3.png)
 
 
